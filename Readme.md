@@ -21,3 +21,7 @@ down an abstraction rabbit hole that wasn't getting me any closer to solving the
 problem. In re-evaluating my design I decided on modeling the network as an array
 of matrices representing the weights which greatly simplified the logic of training
 and prediction.
+
+Loading the training data from the MNIST dataset was significantly easier than I
+thought. The file format is very straight forward; essentailly just some meta data
+follwed by all the pixels as unsigned bytes.
