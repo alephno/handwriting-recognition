@@ -1,0 +1,21 @@
+{
+  "name": "handwriting-recognition",
+  "version": "1.0.0",
+  "description": "Use machine learning to recognize handwritten digits",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Alastair Williams",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mathjs": "^6.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  }
+}
